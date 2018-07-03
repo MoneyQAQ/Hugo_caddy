@@ -18,11 +18,15 @@ draft : false
 
 [^注]: 这里选用的是 flyzy 的一键搭建脚本，后同
 
-` git clone https://github.com/flyzy2005/ss-fly `
+```bash
+ git clone https://github.com/flyzy2005/ss-fly 
+```
+
+
 
 如果提示 `bash: git: command not found`，则需要先安装 git，
 
-```
+```bash
 
 ```
 
@@ -30,7 +34,11 @@ draft : false
 
 #### 安装 Shadowsocks
 
-`ss-fly/ss-fly.sh -i PASSWORD PORT`
+```bash
+ss-fly/ss-fly.sh -i PASSWORD PORT
+```
+
+
 
 其中 PASSWORD 是 SS 的密码，PORT 是自定义的端口（1-65535）
 
@@ -40,13 +48,18 @@ draft : false
 
 #### 相关 SS 操作
 
-```
-
+```bash
+修改配置文件 ：vim /etc/shadowsocks.json
+停止ss服务  ：ssserver -c /etc/shadowsocks.json -d stop
+启动ss服务  ：ssserver -c /etc/shadowsocks.json -d start
+重启ss服务  ：ssserver -c /etc/shadowsocks.json -d restart
 ```
 
 
 
 #### 卸载 SS
 
-` ss-fly/ss-fly.sh -uninstall `
+```bash
+ss-fly/ss-fly.sh -uninstall
+```
 
