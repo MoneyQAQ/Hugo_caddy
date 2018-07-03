@@ -1,7 +1,7 @@
 ---
-title: "三行代码干净删除Nginx"
-date: "2018-07-03T08:19:20Z"
-draft: false
+title : "三行代码干净删除Nginx"
+date  : "2018-07-03T08:19:20Z"
+draft : false
 ---
 
 ```sudo apt-get remove nginx nginx-common
