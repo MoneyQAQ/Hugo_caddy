@@ -4,10 +4,10 @@ date: "2018-07-03T08:19:20Z"
 draft: false
 ---
 
-`sudo apt-get remove nginx nginx-common`
-
-`sudo apt-get purge nginx nginx-common`
-
-`sudo apt-get autoremove`
+```sudo apt-get remove nginx nginx-common
+sudo apt-get remove nginx nginx-common
+sudo apt-get purge nginx nginx-common
+sudo apt-get autoremove
+```
 
 三行搞定
