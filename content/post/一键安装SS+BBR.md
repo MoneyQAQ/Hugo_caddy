@@ -27,7 +27,8 @@ draft : false
 如果提示 `bash: git: command not found`，则需要先安装 git，
 
 ```bash
-
+CentOS          执行: yum -y install git
+Ubuntu / Debian 执行: apt-get -y install git
 ```
 
 
