@@ -10,7 +10,7 @@ draft : false
 
 
 
-## 搭建 Shadowsocks 服务器
+### 搭建 Shadowsocks 服务器
 
 #### 下载 Shadowsocks
 
@@ -64,7 +64,7 @@ ss-fly/ss-fly.sh -uninstall
 
 
 
-## 一键开启 BBR
+### 一键开启 BBR
 
 BBR是 Google 开源的一套内核加速算法，装就对了。使用如下代码
 
@@ -77,7 +77,7 @@ ss-fly/ss-fly.sh -bbr
 重启后判断 BBR 是否开启，使用以下命令
 
 ```bash
-
+sysctl net.ipv4.tcp_available_congestion_control
 ```
 
 如果返回值里面有`bbr`，例如
