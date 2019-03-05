@@ -102,12 +102,7 @@ $ curl https://getcaddy.com | bash -s personal http.git,http.hugo
 ```bash
 $ mkdir /etc/init.d/caddy
 $ cd /etc/init.d/caddy
-$ wget 
 ```
-
-
-
-
 
 
 
@@ -120,3 +115,10 @@ $ wget
 #### 网站首页能显示但是看不见文章
 
 之前参考 Hugo 的 quickstart 教程，md 格式的文章都放在 `content/posts`内，之后发现是使用的主题 Casper 默认的渲染路径是`content/post`，将所有文章都迁移到`content/post`文件夹内问题解决。
+
+
+
+### Caddy Aborted
+
+由于 Caddy 的 http-hugo 插件的作者停止更新，目前博客所使用的是 Netlify 提供的静态网站托管服务。
+
